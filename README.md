@@ -31,7 +31,7 @@ So for each node, starting at root:
 
 # Decode
 Steps to decode tree :
-1)Read bit. 
+\n1)Read bit. 
 2)If 1, then read N-bit character/byte, return new node around it with no children
 3)If bit was 0, decode left and right child-nodes the same way, and return new node around them with those children, but no value
 
