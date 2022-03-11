@@ -20,7 +20,7 @@ To encode file we need to build codes for each symbol.\
 2)If you go to right node, write 1 bit\
 Now each symbol from source can be represented as bit sequence and writed in destination file.
 
-To decode char sequence we need to know how it was encdoed. So we encode Huffmun tree, NOT SYMBOL FREQUENCIES because it can costs a lot of memory and there will be no use in compressing. 
+To decode char sequence we need to know how it was encdoed. So we encode Huffmun tree, NOT SYMBOL FREQUENCIES because it can costs a lot of memory and there might be no use in compressing. 
 
 So for each node, starting at root:
 
